@@ -1,5 +1,6 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
+import Contents from '../Contents/Contents'
 import './Home.css'
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
             </div>
         </div>
       </section>
+  <Contents/>
 
       <div className="about-us">
       <div className="text">
