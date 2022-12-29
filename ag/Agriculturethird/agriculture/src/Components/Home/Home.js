@@ -9,7 +9,7 @@ export default function Home() {
         <div className="content">
             <div className="info">
                 <h2>Like Agriculture<br/><span>Be Farmer!</span></h2>
-                <HashLink smooth to="/#about" className="boxBtn">More info</HashLink>
+                <button type="button" class="btn btn-secondary">Left</button>
             </div>
         </div>
       </section>

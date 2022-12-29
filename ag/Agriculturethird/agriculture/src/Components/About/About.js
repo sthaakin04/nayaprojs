@@ -4,42 +4,22 @@ import './About.css'
 export default function About() {
   return (
     <div id="about">
-      <div className="container">
-      <h1>Global agriculture</h1>
-      <p>Zlatibor is a mountain of exceptional beauty whose special geographical properties have made this mountain a real gem of western Serbia.</p>
-      {/* <a href="#">Learn more</a> */}
-    </div>
-
-    <div className="blank" id="services">
-        <h2>Our Services</h2>
-    </div>
-
-    <div className="container second">
-      <div className="item">
-        <div className="img img-first"></div>
-        <div className="card">
-          <h3>Harvesting</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga eligendi consequatur accusamus modi ea! Corporis reiciendis omnis, explicabo, perspiciatis, illum similique ex corrupti sunt eaque exercitationem velit repellendus impedit?</p>
-          {/* <a href="#">Learn more</a> */}
-        </div>
+      <div className="div3">
+                <div className="div1">
+                    <img src="static/images/ag1.png" alt="aboutusimage" >
+                    </img>
+                </div> 
+        </div>        
+        <div className="div3">
+                <div className="div1">
+                    <div className="d">
+                    <h1 className="About"><span id="topic">About Us</span></h1>
+                    <br/>
+                    <p><span id="p1">PC Gamer is the global authority on PC games. We’ve been covering PC gaming for more than 20 years, and continue that legacy today with worldwide print editions and around-the-clock news, features, esports coverage, hardware testing and game reviews on PCGamer.com, as well as major yearly events including the PC Gaming Show at E3. Beyond the packed stadiums, flashy buzzwords and million-dollar prizes, lies the real soul of esports. It’s the discipline to train non-stop and develop the strategy and skills to bend your opponent to your will. It’s the camaraderie and bonds made between teammates, fans and countrymen as you experience painful losses and the euphoria of victory. And most of all, it’s the never-ending drive and passion to keep competing—and win.</span></p>
+                    <br/>
+                    </div>
+                </div>
+        </div> 
       </div>
-      <div className="item">
-        <div className="img img-second"></div>
-        <div className="card">
-          <h3>Fertility Boost</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, ab quas, beatae rem praesentium provident unde explicabo laborum illum ea nesciunt nobis vitae deleniti accusamus voluptas omnis ut. Soluta, debitis!</p>
-          {/* <a href="#">Learn more</a> */}
-        </div>
-      </div>
-      <div className="item">
-        <div className="img img-third"></div>
-        <div className="card">
-          <h3>Boost production</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, iusto esse? Eos sapiente quod aperiam soluta nihil molestiae tenetur dolore nam placeat! A in labore aspernatur repellat pariatur, voluptates facere!</p>
-          {/* <a href="#">Learn more</a> */}
-        </div>
-      </div>
-    </div>
-    </div>
   )
 }

@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Home/>
-        <About/>
+        {/* <About/> */}
         <Contact/>
         <Footer/>
       </BrowserRouter>
