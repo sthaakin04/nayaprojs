@@ -1,0 +1,35 @@
+#footer2 {
+  background-color: #000000;
+  color: #E7DFDD;
+  padding-top: 30px;
+  position: absolute;
+  width: 100%;
+  /* margin-top: .2rem; */
+}
+#footer2 section {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-bottom: 30px; */
+}
+#footer2 footer {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  border-top: 1px #8b8b8b solid;
+}
+#footer2 ul {
+  float: left;
+  width: 32%;
+  list-style: none;
+  padding: 0px;
+}
+#footer2 li {
+  padding: 5px;
+}
+#footer2 .topLevel {
+  font-size: 1.2em;
+  font-variant: small-caps;
+}
+
