@@ -11,7 +11,7 @@ export default function Navbar() {
         <ul className="nav">
             <li><Link to="/">home</Link></li>
             <li><Link to="/about">about</Link></li>
-            <li><Link to="/services">services</Link></li>
+            {/* <li><Link to="/services">services</Link></li> */}
             <li><Link to="/contact">contact</Link></li>
         </ul>  
     </header>
