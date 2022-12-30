@@ -11,13 +11,14 @@ import{
 } from 'react-router-dom';
 import Contact from "./Components/Contact/Contact";
 import Gallery from "./Components/Gallery/Gallery";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <>
       <div>  
       <Router>
-      {/* <ScrollToTop/> */}
+      <ScrollToTop/>
       <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
