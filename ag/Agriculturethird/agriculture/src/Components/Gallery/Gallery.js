@@ -15,22 +15,22 @@ export default function Gallery() {
           <picture className="responsive-img">
             <source
               media="(min-width: 992px)"
-              srcSet="https://i.postimg.cc/jSTZmp8H/appetizer-img-1.jpg"
+              srcSet="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
             />
             <source
               media="(min-width: 767px)"
-              srcSet="https://i.postimg.cc/1RTdCYhB/appetizer-img-2.jpg"
+              srcSet="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
             />
-            <source srcSet="https://i.postimg.cc/TwnctQr7/appetizer-img-3.jpg" />
+            <source srcSet="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" />
             <img
-              src="https://i.postimg.cc/jSTZmp8H/appetizer-img-1.jpg"
+              src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
               alt="Appetizer"
             />
           </picture>
 
           <div className="coursemeal-info">
             <a href="#" className="coursemeal-info__link">
-              Appetizer
+              Production
             </a>
           </div>
         </div>
@@ -40,22 +40,22 @@ export default function Gallery() {
           <picture className="responsive-img">
             <source
               media="(min-width: 992px)"
-              srcSet="https://i.postimg.cc/V6NCCRK0/maindish-img-1.jpg"
+              srcSet="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
             <source
               media="(min-width: 767px)"
-              srcSet="https://i.postimg.cc/9XYj186s/maindish-img-2.jpg"
+              srcSet="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
-            <source srcSet="https://i.postimg.cc/pLY8dt4q/maindish-img-3.jpg" />
+            <source srcSet="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
             <img
-              src="https://i.postimg.cc/V6NCCRK0/maindish-img-1.jpg"
+              src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               alt="Main Course"
             />
           </picture>
 
           <div className="coursemeal-info">
             <a href="#" className="coursemeal-info__link">
-              Main Course
+              Harvesting
             </a>
           </div>
         </div>
@@ -65,22 +65,22 @@ export default function Gallery() {
           <picture className="responsive-img">
             <source
               media="(min-width: 992px)"
-              srcSet="https://i.postimg.cc/9FfLh6ZZ/dessert-img-1.jpg"
+              srcSet="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
             <source
               media="(min-width: 767px)"
-              srcSet="https://i.postimg.cc/FsRXBnKn/dessert-img-2.jpg"
+              srcSet="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
-            <source srcSet="https://i.postimg.cc/ZKcFCVFZ/dessert-img-3.jpg" />
+            <source srcSet="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
             <img
-              src="https://i.postimg.cc/ZKcFCVFZ/dessert-img-1.jpg"
+              src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               alt="Desserts"
             />
           </picture>
 
           <div className="coursemeal-info">
             <a href="#" className="coursemeal-info__link">
-              Dessert
+              Quality Check
             </a>
           </div>
         </div>
@@ -97,22 +97,22 @@ export default function Gallery() {
           <picture className="responsive-img">
             <source
               media="(min-width: 992px)"
-              srcSet="https://i.postimg.cc/jSTZmp8H/appetizer-img-1.jpg"
+              srcSet="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
             />
             <source
               media="(min-width: 767px)"
-              srcSet="https://i.postimg.cc/1RTdCYhB/appetizer-img-2.jpg"
+              srcSet="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
             />
-            <source srcSet="https://i.postimg.cc/TwnctQr7/appetizer-img-3.jpg" />
+            <source srcSet="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" />
             <img
-              src="https://i.postimg.cc/jSTZmp8H/appetizer-img-1.jpg"
+              src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
               alt="Appetizer"
             />
           </picture>
 
           <div className="coursemeal-info">
             <a href="#" className="coursemeal-info__link">
-              Appetizer
+              Production
             </a>
           </div>
         </div>
@@ -122,22 +122,22 @@ export default function Gallery() {
           <picture className="responsive-img">
             <source
               media="(min-width: 992px)"
-              srcSet="https://i.postimg.cc/V6NCCRK0/maindish-img-1.jpg"
+              srcSet="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
             <source
               media="(min-width: 767px)"
-              srcSet="https://i.postimg.cc/9XYj186s/maindish-img-2.jpg"
+              srcSet="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
-            <source srcSet="https://i.postimg.cc/pLY8dt4q/maindish-img-3.jpg" />
+            <source srcSet="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
             <img
-              src="https://i.postimg.cc/V6NCCRK0/maindish-img-1.jpg"
+              src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               alt="Main Course"
             />
           </picture>
 
           <div className="coursemeal-info">
             <a href="#" className="coursemeal-info__link">
-              Main Course
+              Harvesting
             </a>
           </div>
         </div>
@@ -147,22 +147,22 @@ export default function Gallery() {
           <picture className="responsive-img">
             <source
               media="(min-width: 992px)"
-              srcSet="https://i.postimg.cc/9FfLh6ZZ/dessert-img-1.jpg"
+              srcSet="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
             <source
               media="(min-width: 767px)"
-              srcSet="https://i.postimg.cc/FsRXBnKn/dessert-img-2.jpg"
+              srcSet="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
-            <source srcSet="https://i.postimg.cc/ZKcFCVFZ/dessert-img-3.jpg" />
+            <source srcSet="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
             <img
-              src="https://i.postimg.cc/ZKcFCVFZ/dessert-img-1.jpg"
+              src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               alt="Desserts"
             />
           </picture>
 
           <div className="coursemeal-info">
             <a href="#" className="coursemeal-info__link">
-              Dessert
+              Quality Check
             </a>
           </div>
         </div>
