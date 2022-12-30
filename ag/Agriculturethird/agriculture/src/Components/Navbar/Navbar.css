@@ -30,6 +30,7 @@ header a{
 }
 header .nav{
     display: flex;
+    flex-wrap: none;
 }
 header .nav li{
     margin: 0 15px;

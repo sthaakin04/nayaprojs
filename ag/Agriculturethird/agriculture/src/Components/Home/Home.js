@@ -1,6 +1,5 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
-import Contents from '../Contents/Contents'
 import './Home.css'
 export default function Home() {
   return (
@@ -10,12 +9,10 @@ export default function Home() {
         <div className="content">
             <div className="info">
                 <h2>Like Agriculture<br/><span>Be Farmer!</span></h2>
-                <HashLink smooth to="/#about" className="boxBtn">More info</HashLink>
+                <button type="button" class="btn btn-success">More Info</button>
             </div>
         </div>
       </section>
-  <Contents/>
-
       <div className="about-us">
       <div className="text">
           <h2>Discover</h2>
