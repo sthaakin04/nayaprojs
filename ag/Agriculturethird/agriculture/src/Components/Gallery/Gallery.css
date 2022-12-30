@@ -159,3 +159,11 @@ body {
         font-size: 25px;
     }    
 }
+
+@media only screen and (max-width: 500px) {
+    .coursemeal  {
+        height: 500px;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+}
