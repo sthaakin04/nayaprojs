@@ -6,16 +6,16 @@ import {Link} from 'react-router-dom';
 export default function Navbar() {
 
   return (
-    <div>
+    <>
         <header>
         <h2><Link to="/">Kisan</Link></h2>
         <ul className="nav">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/services">Gallery</Link></li>
+            <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to="/contact">Contact</Link></li>
         </ul>  
     </header>
-    </div>
+    </>
   )
 }

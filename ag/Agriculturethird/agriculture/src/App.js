@@ -10,6 +10,7 @@ import{
   Route,
 } from 'react-router-dom';
 import Contact from "./Components/Contact/Contact";
+import Gallery from "./Components/Gallery/Gallery";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/about" element={<About/>}/>
-          {/* <Route exact path="/products" element={<Products/>}/> */}
+          <Route exact path="/gallery" element={<Gallery/>}/>
           <Route exact path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer/>
