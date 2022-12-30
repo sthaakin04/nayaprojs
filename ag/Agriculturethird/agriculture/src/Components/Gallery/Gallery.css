@@ -23,6 +23,7 @@ body {
     overflow: hidden;
     background-color: #000;
     position: relative;
+    margin-top: 3rem;
 
 }
 
@@ -105,7 +106,7 @@ body {
         flex-wrap: wrap;
     } */
     .coursemeal  {
-        height: 700px;
+        height: auto;
         width: 990px;
         flex-wrap: wrap;
     }
@@ -123,7 +124,7 @@ body {
     }
 
     .coursemeal  {
-        height: 900px;
+        height: auto;
         width: 500px;
         flex-wrap: wrap;
     }
@@ -162,8 +163,11 @@ body {
 
 @media only screen and (max-width: 500px) {
     .coursemeal  {
-        height: 500px;
+        height: auto;
         width: 300px;
         flex-wrap: wrap;
+    }
+    .coursemeal:first-child{
+        margin-top: 7rem;
     }
 }
