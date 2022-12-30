@@ -1,12 +1,11 @@
 .d{
   padding: 30px;
 }
-/* .div3{
-  width: 50%;
-  float: left;
-  padding: 10px 10px;
-} */
+#about img{
+  width: 100%;
+}
 #about{
+  margin: 8rem;
   display: flex;
 }
 .div3{

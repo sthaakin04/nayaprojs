@@ -9,11 +9,10 @@ export default function Home() {
         <div className="content">
             <div className="info">
                 <h2>Like Agriculture<br/><span>Be Farmer!</span></h2>
-                <button type="button" class="btn btn-secondary">Left</button>
+                <button type="button" class="btn btn-success">More Info</button>
             </div>
         </div>
       </section>
-
       <div className="about-us">
       <div className="text">
           <h2>Discover</h2>
