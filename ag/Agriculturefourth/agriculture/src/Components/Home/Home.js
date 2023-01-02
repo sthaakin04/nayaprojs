@@ -13,7 +13,7 @@ export default function Home() {
         <section>
           <div className="content-text">
             <p>
-              <span className="first-letter red">T</span>
+              {/* <span className="first-letter red">T</span> */}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error temporibus repellendus distinctio reiciendis consequatur quibusdam cupiditate, dicta consectetur vel velit! Voluptates commodi saepe veritatis soluta iure animi omnis nesciunt nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nisi neque! Enim rerum laudantium quam placeat, itaque aliquam, at illum sit repellendus nihil eveniet inventore doloribus deserunt nesciunt! Cum, magnam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed natus neque, amet error a vel, beatae saepe eos qui veritatis odit aut atque soluta explicabo consequuntur, eaque autem nulla voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam similique reprehenderit placeat! Minus, animi neque accusantium minima dolorem repellat eaque voluptatum ipsam hic. Optio suscipit earum assumenda fugiat sequi ab!
             </p>
             <div className="line-break"></div>
