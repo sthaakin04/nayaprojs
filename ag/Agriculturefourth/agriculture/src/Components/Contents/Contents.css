@@ -110,7 +110,8 @@ body {
       background-color: rgba(0, 0, 0, 0.6);
     }
     .news-card:hover .news-card__title {
-      color: yellow;
+      /* color: rgb(9, 255, 0); */
+      color: var(--main-color);
     }
     .news-card:hover .news-card__image {
       transform: scale(1.2);
@@ -151,5 +152,5 @@ body {
 
 .news-card__read-more:hover i {
       left: 0.5rem;
-      color: yellow;
+      color: rgb(0, 221, 11);
     }
