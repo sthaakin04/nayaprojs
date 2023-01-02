@@ -1,0 +1,8 @@
+.row{
+	margin-top: 4rem;
+}
+@media screen and (max-width:500px){
+	.row{
+		margin-top: 8rem;
+	}
+}
