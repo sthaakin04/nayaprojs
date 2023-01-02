@@ -3,53 +3,87 @@ import "./Contents.css";
 
 export default function Contents() {
   return (
-    // <div className="cont">
-
-    //     <div className="overlay">
-    //       <h1>Simply The Best</h1>
-    //       <h3>Reasons for Choosing US</h3>
-    //       <p>
-    //         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam
-    //         consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.
-    //       </p>
-    //       <br />
-    //       {/* <button>READ MORE</button> */}
-    //     </div>
-    // </div>
     <>
-    <div className="sample-header">
-  <div className="sample-header-section">
-    <h1>We are a company that reaches beyond limits</h1>
-    {/* <h2>we are agrobots </h2> */}
+    <div class="content-wrapper">
+  
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image"/>
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing First Title</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
   </div>
-</div>
-<div className="sample-section-wrap">
-  <div className="sample-section">
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-      quis, sem. Nulla consequat massa quis enim. </p>
 
-    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-      vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-      ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
-
-    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
-      libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. </p>
-
-    <p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-      mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. </p>
-
-    <p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet
-      nec, imperdiet iaculis, ipsum. </p>
-
-    <p>Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-      quis, sem. Nulla consequat massa quis enim. </p>
-
-    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-      vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-      ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/631954/pexels-photo-631954.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image"/>
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing Second Title that is Quite Long</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam obcaecati ex natus nulla rem sequi laborum quod fugit&hellip;</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
   </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="news-card__image"/>
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing Title</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae&hellip;</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/248486/pexels-photo-248486.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image"/>
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing Forth Title that is Quite Long</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet!</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image"/>
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing Fifth Title</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image"/>
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing 6<sup>th</sup> Title</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia.</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
 </div>
     </>
   );
