@@ -1,259 +1,97 @@
-.box{
-    /* position: relative; */
-    justify-content: center;
-    min-height: 100vh;
-    color: #fff;
-    text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Arimo|Oswald"); 
+
+
+/* section:first-child{
+  position: relative;
+  height:100px;
+} */
+section .title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top:-35.5px;
+  margin-left: -91.4px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 10px;
 }
-#home button{
-    padding: 16px 32px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border: 2px solid #4CAF50;
-    font-size: 16px;
+.title h1,h2{
+  font-family:'Oswald', sans-serif; 
+  font-size:28px; 
+  font-weight:400; 
+  text-transform: uppercase;
 }
-#home button:hover {
-    background-color: #4CAF50;
-    color: white;
+.title h2{
+  font-size:20px;
+  font-weight:100;
+  letter-spacing: 5px;
+  margin-left: 13px;
+}
+.p-one{
+ background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1589923188900-85dae523342b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'); 
+}
+.parallax-inner{
+  position:relative;
+  min-height: 500px;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.parallax-inner > h2{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -20.5px;
+  width: 100%;
+  text-align: center;
+}
+.content-text p{
+  padding: 25px 50px 25px 50px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 24px;
+  color: black;
+}
+.first-letter{
+  float: left;
+  font-weight: 400;
+  font-size: 84px;
+  line-height: 64px;
+  padding-top: 2px;
+  padding-right: 8px;
+  padding-left: 4px;
+}
+.line-break{
+  border-bottom: 1px solid #bf2d33;
+  width: 200px;
+  margin: 0 auto;
+}
+.red{
+  color: #5e5a58;
+}
+.darkgreen{
+  color:#0d2100;
+}
+.green{
+  color:#6b6837;
+}
+.skyblue{
+  color: #5c9cbf;
+}
+
+/* media queries */
+@media screen and (max-width:500px){
+  .parallax-inner{
+    min-height: 350px;
+    background-size: cover;
   }
-#home section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 110px 100px;
-}
-#home .content{
-    margin: auto;
-    width: 50%;
-}
-#home .content .info h2{
-    color: black;
-    font-size: 55px;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    line-height: 60px;
-    margin-bottom: 30px;
-}
-#home .content .info h2 span{
-    color: #fff;
-    font-size: 50px;
-    font-weight: 600;
-}
-/* responsive */
-@media(max-width:960px){
-    #home .content{
-        margin: 60px 50px;
-    }
-    #home .contact .info h2 span{
-        font-weight: 40px;
-        font-size: 40px;
-    }
-    #home .contact .info p{
-        font-size: 14px;
-    }
-}
-@media (max-width: 560px){
-    #home .content .info h2{
-        font-size: 25px;
-        line-height: 40px;
-    }
-    #home .content .info h2 span{
-        font-size: 30px;
-        font-weight: 600;
-    }
-    #home .content .info p{
-        font-size: 14px;
-    }
-}
-
-@media(max-width:1000px){
-    #home section{
-        padding: 100px 50px;
-    }
-}
-@media(max-width:600px){
-    section{
-        padding: 125px 30px;
-    }
-}
-.box video{
-    position: absolute;
-    left: 0;
-    top: 0;
+  footer{
+    padding: 10px;
+  }
+  footer > p{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+    font-size: 24px;
+  }
 }
-.box h1{
-    margin-bottom: 15px;
-    font-size: 65px;
-    text-transform: uppercase;
-    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
-}
-.box h3{
-    margin-bottom: 40px;
-    font-size: 25px;
-}
-.box a.boxBtn{
-    padding: 15px 35px;
-    background: transparent;
-    border-radius: 50px;
-    color: #fff;
-    text-transform: uppercase;
-    border: 4px solid #fff;
-    transition: all .5s;
-}
-.box a.boxBtn:hover{
-    background: #fff;
-    color: #000;
-}
-@media (max-width: 800px){
-    .box h1{
-        font-size: 32px;
-    }
-    .box h3{
-        font-size: 20px;
-    }
-    .box a.boxBtn{
-        padding: 15px 40px;
-    }
-    .nav li{
-        font-size: 0.8rem;
-    }
-}
-.boxBtn{
-    margin-top: 10px;
-}
-
-.nav{
-    flex-wrap: none;
-}
-
-/* sdsds */
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-img {
-    max-width: 100%;
-}
-.about-us .text h2 {
-    font-family: 'Herr Von Muellerhoff', cursive;
-    font-size: 90px;
-    font-weight: normal;
-    margin: 0 0 0px;
-    padding-bottom: 15px;
-}
-.about-us .text h1, h3 {
-    font-family: "Source Code Pro", sans-serif;
-    font-size: 47px;
-    font-weight: bold;
-    letter-spacing: 9.4px;
-    margin: 0 0 15px;
-}
-.about-us .text p {
-    color: #515151;
-    line-height: 27px;
-}
-
-/*End Global*/
-
-/*Start Mutual*/
-p, .a-CTA, input, header{
-    font-family: Cabin, sans-serif;
-}
-.about-us h2, header :hover{
-    color: #d89529;
-}
-.about-us .text {
-    text-align: center;
-}
-.about-us, .about-us .image-container{
-    display: flex;
-}
-
-
-
-
-/*End Mutual*/
-
-
-
-/*Start About-Us*/
-.about-us, .reservation {
-    padding: 60px;
-}
-.about-us .text {
-    flex: 50%;
-    padding: 40px 52px 0 0;
-}
-.about-us .text h3 {
-    color: #000;
-}
-.about-us .text .fa-asterisk {
-    color: #9a9998;
-}
-.about-us .image-container {
-    flex: 50%;
-}
-.about-us .image {
-    margin-left: 20px;
-}
-/*End About-Us*/
-
-/*Start Home Page Responsive*/
-
-@media (max-width: 1200px) {
-    .about-us {
-        padding: 60px 40px;
-    }
-    .about-us .text{
-        padding: 0 32px 0 0;
-    }
-    .about-us .image-container{
-        align-items: center;
-    }
-}
-
-@media (max-width: 992px) {
-    body {
-        padding: 0;
-    }
-
-    .about-us {
-        display: block;
-        padding-top: 50px;
-    }
-    .about-us .text{
-        padding: 0 0 40px;
-    }
-    .about-us .image-container .image1{
-        margin-left: 0;
-    }
-
-}
-
-@media (max-width: 800px) {
-    .about-us .text h2{
-        font-size: 70px;
-        padding-bottom: 10px;
-    }
-}
-
-@media (max-width: 576px) {
-    .about-us h3, h1 {
-        font-size: 40px;
-    }
-    .about-us h2 {
-        font-size:90px
-    }
-    .about-us, .reservation {
-        padding: 60px 20px;
-    }
-}
-/*End Home Page Responsive*/
