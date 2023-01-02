@@ -1,8 +1,11 @@
 .section{
   width: 100%;
   min-height: 100vh;
-  background-color: #ddd;
+  /* background-color: #ddd; */
   margin-top: 5rem;
+}
+.section p, h1{
+  color: black;
 }
 
 .container{
