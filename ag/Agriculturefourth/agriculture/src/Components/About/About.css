@@ -42,7 +42,7 @@
   line-height: 1.5;
 }
 .content-section .content .button a{
-  background-color: #b63939;
+  background-color: #3d3d3d;;
   padding: 12px 40px;
   text-decoration: none;
   color: #fff;
@@ -50,7 +50,7 @@
   letter-spacing: 1.5px;
 } 
 .content-section .content .button a:hover{
-  background-color: #a52a2a;
+  background-color: var(--main-color);
   color: #fff;
 }
 .content-section .social{
