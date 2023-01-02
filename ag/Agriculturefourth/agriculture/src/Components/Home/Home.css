@@ -257,3 +257,8 @@ p, .a-CTA, input, header{
     }
 }
 /*End Home Page Responsive*/
+@media (max-width: 750px) {
+    .homeimg{
+        object-fit: cover;
+    }
+}
