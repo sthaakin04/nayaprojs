@@ -11,7 +11,7 @@ export default function About() {
              </div>   
              <div className="content">
                 <h3>Lorem ipsum dolor sit amet</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci excepturi, dolore voluptates error omnis, vero consectetur impedit mollitia dicta facere alias debitis rerum provident. Esse deleniti asperiores quibusdam veniam qui?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci excepturi, dolore voluptates error omnis, vero consectetur impedit mollitia dicta facere alias debitis rerum provident. Esse deleniti asperiores quibusdam veniam qui?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam dolor quidem eaque labore facilis ipsum, quisquam nulla consequatur! Nesciunt perferendis odit nihil? Aspernatur quam repudiandae unde tempore.</p>
                 <div className="button">
                     <a href="">Read more</a>
                 </div>
