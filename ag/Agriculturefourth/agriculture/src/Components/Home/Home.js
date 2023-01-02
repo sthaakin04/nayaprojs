@@ -11,7 +11,7 @@ export default function Home() {
         <div className="content">
             <div className="info">
                 <h2>Like Agriculture<br/><span>Be Farmer!</span></h2>
-                <button type="button" className="btn btn-success">More Info</button>
+                <button type="button">More Info</button>
             </div>
         </div>
       </section>

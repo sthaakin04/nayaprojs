@@ -179,7 +179,7 @@ overflow-y: auto;
   .modal__container {
     display: -ms-flexbox;
     display: flex;
-    max-width: 675px;
+    width: 700px;
     min-height: 400px;
     margin-bottom: 125px;
     background-color: #ffffff;
