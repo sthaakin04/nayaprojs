@@ -3,23 +3,29 @@ import './About.css'
 
 export default function About() {
   return (
-    <div id="about">
-      <div className="div3">
-                <div className="div1">
-                    <img src="static/images/ag1.png" alt="aboutusimage" >
-                    </img>
-                </div> 
-        </div>        
-        <div className="div3">
-                <div className="div1">
-                    <div className="d">
-                    <h1 className="About"><span id="topic">About Us</span></h1>
-                    <br/>
-                    <p><span id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae velit hic fugit quo doloremque exercitationem cumque dignissimos ducimus asperiores sunt voluptate, minus natus in officiis! Assumenda quam minima obcaecati enim!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae velit hic fugit quo doloremque exercitationem cumque dignissimos ducimus asperiores sunt voluptate, minus natus in officiis! Assumenda quam minima obcaecati enim!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae velit hic fugit quo doloremque exercitationem cumque dignissimos ducimus asperiores sunt voluptate, minus natus in officiis! Assumenda quam minima obcaecati enim!Lorem</span></p>
-                    <br/>
-                    </div>
+    <div className="section">
+    <div className="container">
+        <div className="content-section">
+             <div className="title">
+                <h1>About Us</h1>
+             </div>   
+             <div className="content">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci excepturi, dolore voluptates error omnis, vero consectetur impedit mollitia dicta facere alias debitis rerum provident. Esse deleniti asperiores quibusdam veniam qui?</p>
+                <div className="button">
+                    <a href="">Read more</a>
                 </div>
-        </div> 
-      </div>
+            </div>
+            <div className="social">
+                <a href=""><i className="fa fa-facebook"></i></a>
+                <a href=""><i className="fa fa-twitter"></i></a>
+                <a href=""><i className="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div className="image-section">
+            <img src="static/images/tractor.jpg"/>
+        </div>
+    </div>
+</div>
   )
 }
