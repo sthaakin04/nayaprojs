@@ -16,7 +16,7 @@
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid var(--main-color);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -25,7 +25,7 @@
   outline:0;
 }
 
-.contact .feedback-input:focus { border:2px solid #CC4949; }
+.contact .feedback-input:focus { border:2px solid var(--main-color); }
 
 .contact textarea {
   height: 150px;
@@ -35,7 +35,7 @@
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background:var(--main-color);
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -47,7 +47,7 @@
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover { background:var(--main-color); }
 @media screen and (max-width:500px){
 	.contact form { 
     max-width: 370px; 

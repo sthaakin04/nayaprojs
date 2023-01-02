@@ -23,7 +23,7 @@ export default function About() {
             </div>
         </div>
         <div className="image-section">
-            <img src="static/images/tractor.jpg" alt tractor/>
+            <img src="static/images/tractor.jpg" alt ="tractor"/>
         </div>
     </div>
 </div>

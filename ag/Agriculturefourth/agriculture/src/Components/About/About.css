@@ -42,7 +42,7 @@
   line-height: 1.5;
 }
 .content-section .content .button a{
-  background-color: #3d3d3d;
+  background-color: #b63939;
   padding: 12px 40px;
   text-decoration: none;
   color: #fff;
@@ -57,12 +57,12 @@
   margin: 40px 40px;
 }
 .content-section .social i{
-  color: #a52a2a;
   font-size: 30px;
   padding: 0px 10px;
+  color: #3d3d3d;
 }
 .content-section .social i:hover{
-  color: #3d3d3d;
+  color: var(--main-color);
 }
 @media screen and (max-width: 768px){
   .container{
