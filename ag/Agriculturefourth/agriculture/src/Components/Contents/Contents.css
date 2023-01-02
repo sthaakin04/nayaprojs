@@ -76,6 +76,7 @@ body {
 
 .news-card__text-wrapper {
     position: absolute;
+    width: 100%;
     bottom: 0rem;
     padding: 1rem;
     color: white;
