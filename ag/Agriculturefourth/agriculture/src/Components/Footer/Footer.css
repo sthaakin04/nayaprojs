@@ -40,5 +40,6 @@ body{
 #footer2 .topLevel {
   font-size: 1.2em;
   font-variant: small-caps;
+  color: var(--main-color);
 }
 
